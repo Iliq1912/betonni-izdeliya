@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бетонни изделия</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Бетонни изделия</h1>
+    </header>
+
+    <nav>
+        <a href="#">Начало</a>
+        <a href="#">Продукти</a>
+        <a href="#">За нас</a>
+        <a href="#">Контакти</a>
+    </nav>
+
+    <main>
+        <h2>Нашите бетонни изделия</h2>
+        <p>Предлагаме висококачествени продукти от бетон, подходящи за вашия дом и градина.</p>
+
+        <section class="product-list">
+            <div class="product">
+                <img src="https://example.com/concrete-product1.jpg" alt="Коруба за септична яма">
+                <h3>Бетонна саксия</h3>
+                <p>Модерна и здрава саксия, изработена от висококачествен бетон.</p>
+            </div>
+            <div class="product">
+                <img src="https://example.com/concrete-product2.jpg" alt="Хидрофорна шахта">
+                <h3>Бетонен фонтан</h3>
+                <p>Класически фонтан за градина, устойчив на всякакви атмосферни условия.</p>
+            </div>
+            <div class="product">
+                <img src="https://example.com/concrete-product3.jpg" alt="Водомерна шахта">
+                <h3>Бетонна статуя</h3>
+                <p>Стилна статуя за украса на двора или дома.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Бетонни изделия. Всички права запазени.</p>
+    </footer>
+
+</body>
+</html>
